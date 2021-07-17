@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>毕业设计管理系统登录</title>
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#logindiv{
+				background-color: white;
+				width: 550px;
+				height: 530px;
+				margin: 0 auto;
+				color: #1E9FFF;
+				margin-top: 150px;
+				text-align: center;
+				padding-top: 20px;
+				border-radius: 5px;
+			}
+			#username{
+				width: 426px;
+				height: 55px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+			}
+			#userpassword{
+				width: 426px;
+				height: 55px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 5px;
+			}
+			#loginbutton{
+				width: 456px;
+				height: 55px;
+				background-color: #1E9FFF;
+				border: 1px solid #1E9FFF;
+				margin-top: 30px;
+				border-radius: 5px;
+				color: white;
+			}
+			.rememberme{
+				float:left;
+				margin-left: 40px;
+			}
+			.remembermetext{
+				float:left;
+			}
+			#nuc{
+				width: 290px;
+				height: 75px;
+			}
+			#h1{
+				color: black;
+			}
+			#mages{
+				margin-bottom: 10px;
+				margin-top: 15px;
+			}
+			#bottomdiv{
+				color: black;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="logindiv">
+			<img src="images/nuc.png" id="nuc">
+			<h1 id="h1">毕业设计管理系统</h1>
+			<img src="images/user.png">
+			<input type="text" id="username" name="username" placeholder="用户名">
+			<br>
+			<img src="images/password.png">
+			<input type="text" id="userpassword" name="userpassword" placeholder="用户密码">
+			<br>
+			<input type="checkbox" class="rememberme"><span class="remembermetext" style="color: black;">记住密码</span>
+			<br>
+			<button id="loginbutton">登录</button><br>
+			<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&redirect_uri=http%3A%2F%2Fspcdp.cdposs.qq.com%2Fauth%2Fcallback&client_id=101477813&state=http%3A%2F%2Fspcdp.cdposs.qq.com%2F"><img id="mages" src="images/qq.png"></a>
+			<a href="https://wx.qq.com/"><img id="mages" src="images/weixin.png"></a>
+			<a href="https://weibo.com/"><img id="mages" src="images/weibo.png"></a>
+			<div id="bottomdiv">开发者：WBQ 中北大学</div>
+			<div id="bottomdiv">技术支持：暂无</div>
+		</div>
+	</body>
+</html>
